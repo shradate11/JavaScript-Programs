@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		function addi()
+		{
+			var a=parseInt(document.f.t1.value);
+			var b==parseInt(document.f.t2.value);
+			var c=a+b;
+			document.f.t3.value=c;
+		}
+		function subs()
+		{
+			var a=parseInt(document.f.t1.value);
+			var b==parseInt(document.f.t2.value);
+			var c=a-b;
+			document.f.t3.value=c;
+		}
+		function divi()
+		{
+			var a=parseInt(document.f.t1.value);
+			var b==parseInt(document.f.t2.value);
+			var c=a/b;
+			document.f.t3.value=c;
+		}
+		function muli()
+		{
+			var a=parseInt(document.f.t1.value);
+			var b==parseInt(document.f.t2.value);
+			var c=a*b;
+			document.f.t3.value=c;
+		}
+		
+	</script>
+</head>
+<body>
+	<form name="f">
+		<table>
+
+			<tr><td>Enter 1st no</td><td><input type="text" name="t1"/></td></tr>
+			<tr><td>Enter 2nd no</td><td><input type="text" name="t2"/></td></tr>
+			<tr><td>Result</td><td><input type="text" name="t3"/></td></tr>
+			<tr><td><input type="button" value="add" onclick="addi()"></td><td><input type="reset" value="clear"/></td></tr>
+			<tr><td><input type="button" value="sub" onclick="subs()"></td><td><input type="reset" value="clear"/></td></tr>
+			<tr><td><input type="button" value="div" onclick="divi()"></td><td><input type="reset" value="clear"/></td></tr>
+			<tr><td><input type="button" value="mul" onclick="muli()"></td><td><input type="reset" value="clear"/></td></tr>
+		</table>
+	</form>
+
+</body>
+</html>
